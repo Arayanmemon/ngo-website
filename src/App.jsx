@@ -8,6 +8,7 @@ import Volunteers from "./pages/Volunteers";
 import YourProjects from "./pages/YourProjects";
 import AddProjects from "./pages/AddProjects";
 import EditProfile from "./pages/EditProfile";
+import SupportChat from "./pages/SupportChat";
 
 export default function App() {
   return (
@@ -30,7 +31,7 @@ export default function App() {
             <Route path="/yourprojects" element={<YourProjects />} />
             <Route path="/addprojects" element={<AddProjects />} />
             <Route path="/editprofile" element={<EditProfile />} />
-            
+            <Route path="/SupportChat" element={<SupportChat/>}/>
 
           </Route>
         </Routes>

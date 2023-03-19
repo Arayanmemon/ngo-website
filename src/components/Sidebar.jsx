@@ -19,8 +19,12 @@ export default function ({ navRequired }) {
   return (
     <div className="flex flex-row">
       <div
-        className={`h-screen bg-blue-200 ${open ? "w-72 px-4" : "w-0 px-0"
+        className={`h-[120vh] ${open ? "w-72 px-4" : "w-0 px-0"
           } duration-700 `}
+          style={{
+            background:
+              "linear-gradient(180deg, #5B93A6 0%, rgba(0, 0, 0, 0) 114.77%)",
+          }}
       >
         <div className={`${open ? "flex" : "hidden"} flex flex-col w-full `}>
           <div>
