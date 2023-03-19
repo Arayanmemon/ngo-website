@@ -14,12 +14,8 @@ export default function App() {
 
   return (
     <div
-      className="body min-h-[100vh]"
-      style={{
-        // backgroundColor:
-          // "linear-gradient(180deg, #1C244D 0%, rgba(58, 143, 143, 0) 100%)",
-          backgroundImage: "linear-gradient(rgba(91, 147, 166, 1) ,rgba(0, 0, 0, 0)"
-      }}
+      className="body min-h-[100vh] bg-color"
+      
     >
       <BrowserRouter>
       <Routes>
