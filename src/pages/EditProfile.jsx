@@ -9,7 +9,7 @@ export default function EditProfile() {
     <div className="flex flex-row">
       <Sidebar />
       <div className="w-full mt-4 ">
-        <div className="w-full items-center pl-4 text-6xl bg-gray-300 py-2 text-white flex ">
+        <div className="w-full items-center pl-4 text-4xl bg-gray-300 py-2 text-white flex ">
           <img src={clipboardIcon} alt="" />{" "}
           <h1 className="pl-4">Edit Profile</h1>
         </div>

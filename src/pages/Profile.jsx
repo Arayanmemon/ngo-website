@@ -10,7 +10,7 @@ export default function Profile() {
       <div className="flex flex-row">
         <Sidebar />
         <div className='w-full flex flex-col gap-2 mt-4'>
-          <div className="tems-center pl-4 text-6xl bg-gray-300 py-2 text-white flex ">
+          <div className="tems-center pl-4 text-4xl bg-gray-300 py-2 text-white flex ">
             <img src={profileIcon} alt="" /> <h1 className="pl-4">Profile Information</h1>
           </div>
           <div className='flex flex-col justify-between text-white mx-auto  gap-3'>
