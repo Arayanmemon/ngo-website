@@ -36,22 +36,30 @@ export default function ProfileInfo() {
         </div>
 
         <div className="w-full mt-[25vh]">
-          <h1 className="text-center font-bold text-3xl text-white"> <span className="text-[#3EEBEB]">ONGOING</span> PROJECTS</h1>
+          <h1 className="text-center font-bold text-3xl text-white">
+            {" "}
+            <span className="text-[#3EEBEB]">ONGOING</span> PROJECTS
+          </h1>
 
-          <div className="grid grid-cols-3 gap-4 mx-auto">
-
-              <div className="body w-2/4 p-2 flex flex-col">
-                        <div className="bg-[#2F6977]">
-                        <img src={Edhi2} alt="" />
-                            <p>
-                            the history of establishing the Edhi child adoption Centre and childcare services dates back to 1949. Mrs. Bilquis Edhi is supervising and looking after the caring and feeding of babies and children. For this purpose, exclusive cradles have been placed outside all Edhi Centre's.
-                            </p>
-                        </div>
+          <div className="w-3/4 grid grid-cols-3 gap-4 px-auto mx-auto">
+            <div className="body w-3/4  p-2 relative">
+              <div className=" rounded-t-full ">
+                <img src={Edhi2} alt="" />
               </div>
-            
+              <div className="z-1 aboslute top-[2000px] px-4 bg-[#2F6977]">
+                <h1 className="text-white text-center font-bold text-xl">
+                  Children Services
+                </h1>
+                <p className="text-white">
+                  the history of establishing the Edhi child adoption Centre and
+                    childcare services dates back to 1949. Mrs. Bilquis Edhi is
+                  supervising and looking after the caring and feeding of babies
+                  and children. For this purpose, exclusive cradles have been
+                  placed outside all Edhi Centre's.
+                </p>
+              </div>
+            </div>
           </div>
-
-
         </div>
       </div>
     </div>
