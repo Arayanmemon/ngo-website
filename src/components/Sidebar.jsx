@@ -27,7 +27,7 @@ export default function ({ navRequired }) {
             <img src={appLogo} alt="" />
           </div>
           {/* Side BAR MENU CONTENTS */}
-          <div className="flex flex-row px-4  py-2 hover:bg-blue-400 text-lg items-center cursor-pointer  gap-3">
+          <div onClick={() => handleClick("/")} className="flex flex-row px-4  py-2 hover:bg-blue-400 text-lg items-center cursor-pointer  gap-3">
             <img src={dashBoardIcon} alt="" />
             <div>Dashboard</div>
           </div>

@@ -1,8 +1,10 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar";
 import profileIcon from "/icons/profile-icon.png";
+import { useNavigate } from 'react-router-dom';
 
 export default function Profile() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="flex flex-row">
@@ -14,7 +16,7 @@ export default function Profile() {
           <div className='flex flex-col justify-between text-white mx-auto  gap-3'>
 
             <div className='self-end my-2'>
-              <button className='bg-slate-800 px-6 py-1 mx-2 rounded-lg'>EDIT</button>
+              <button className='bg-slate-800 px-6 py-1 mx-2 rounded-lg' onClick={() => {navigate("/editprofile")}}>EDIT</button>
               <button className='bg-slate-800 px-2 py-1 mx-2 rounded-lg'>VIEW PROFILE</button>
             </div>
             <div className='text-xl hidden'>
