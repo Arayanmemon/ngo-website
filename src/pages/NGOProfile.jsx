@@ -52,7 +52,7 @@ export default function ProfileInfo() {
                 </h1>
                 <p className="text-white">
                   the history of establishing the Edhi child adoption Centre and
-                    childcare services dates back to 1949. Mrs. Bilquis Edhi is
+                  childcare services dates back to 1949. Mrs. Bilquis Edhi is
                   supervising and looking after the caring and feeding of babies
                   and children. For this purpose, exclusive cradles have been
                   placed outside all Edhi Centre's.
@@ -60,6 +60,34 @@ export default function ProfileInfo() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="footer grid grid-cols-3 mx-60 gap-x-20 my-16">
+        <div>
+          <h1 className="text-[#2F6977] text-3xl font-semibold">
+            EDHI FOUNDATION
+          </h1>
+          <p className="text-[#817D7D] text-xl">
+            Edhi foundation is a non profit organization, with having 10+
+            offices in Pakistan and working broadly for the community services
+            in Pakistan.
+          </p>
+        </div>
+        <div className="text-center">
+          <h1 className="text-[#2F6977] text-center text-3xl font-semibold">
+            CONTACT
+          </h1>
+          <p className="text-[#817D7D] text-xl">
+            contact@edhi.com
+          </p>
+          <p className="text-[#817D7D] text-xl">
+            Mukha Singh Estate ,Rawalpindi
+          </p>
+          <p className="text-[#817D7D] text-xl">
+            +92 3159594555
+          </p>
+          
         </div>
       </div>
     </div>
