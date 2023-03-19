@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --bg-gradient: linear-gradient(rgba(91, 147, 166, 1)
+    rgba(0, 0, 0, 0));
+}
 
 .body{
     font-family: var(--font-poppins);
@@ -9,6 +13,35 @@
     background: var(--bg-main-gradient);
 }
 .bg-color{
-    background-image: linear-gradient(rgba(91, 147, 166, 1)
-    rgba(0, 0, 0, 0)) ;
+    background-image: var(--bg-gradient) ;
 }  
+
+@font-face {
+    font-family: 'Medium';
+    src: url("../public/fonts/PoppinsMedium.ttf");
+}
+@font-face {
+    font-family: 'Regular';
+    src: url("../public/fonts/PoppinsRegular.ttf");
+}
+@font-face {
+    font-family: 'Bold';
+    src: url("../public/fonts/PoppinsBold.ttf");
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url("../public/fonts/PoppinsSemiBold.ttf");
+}
+
+.regular-font , p{
+    font-family: 'Regular';
+}
+.semi-bold-font{
+    font-family: 'SemiBold';
+}
+.bold-font{
+    font-family: 'Bold';
+}
+.medium-font{
+    font-family: 'Medium';
+}
