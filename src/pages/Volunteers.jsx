@@ -14,7 +14,7 @@ export default function Volunteers() {
           <img src={volunteers} alt="" /> <h1 className="pl-4">Volunteers</h1>
         </div>
 
-        <div className="w-full px-8 mt-16">
+        <div className="w-4/6 rounded-md mx-auto  bg-white mt-16 ">
           <table className="table-auto w-full p-3 bg-white text-black  rounded-md overflow-x-scroll">
             <thead className="rounded-lg bg-stone-400 text-3xl font-bold">
               <tr>
@@ -31,7 +31,7 @@ export default function Volunteers() {
             <br />
             <tbody className="text-2xl text-center gap-y-2">
       
-              <tr className="bg-green-600 bg-opacity-70 rounded-lg mb-2">
+              <tr className="bg-[#B1C4CD] bg-opacity-70 rounded-lg mb-2">
                 <td className="px-6 py-4 rounded-l-lg ">1</td>
                 <td className="px-6 py-4 flex flex-row justify-center items-center"> <img src={profile1} className="w-16 mr-4"  />   Shahzaib</td>
                 <td className="px-6 py-4 ">0300-0000000</td>
@@ -39,7 +39,7 @@ export default function Volunteers() {
                 
               </tr>
               <br />
-              <tr className="bg-green-600 bg-opacity-70 rounded-lg mb-2">
+              <tr className="bg-[#B1C4CD] bg-opacity-70 rounded-lg mb-2">
                 <td className="px-6 py-4 rounded-l-lg ">1</td>
                 <td className="px-6 py-4 flex flex-row justify-center items-center"> <img src={profile1} className="w-16 mr-4"  />   Shahzaib</td>
             <td className="px-6 py-4 ">0300-0000000</td>
@@ -47,7 +47,7 @@ export default function Volunteers() {
                 
               </tr>
 <br />
-              <tr className="bg-green-600 bg-opacity-70 rounded-lg">
+              <tr className="bg-[#B1C4CD] bg-opacity-70 rounded-lg">
                 <td className="px-6 py-4 rounded-l-lg">1</td>
                 <td className="px-6 py-4 flex flex-row justify-center items-center"> <img src={profile1} className="w-16 mr-4"  />   Shahzaib</td>
                 <td className="px-6 py-4 ">0300-0000000</td>
