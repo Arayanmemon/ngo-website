@@ -5,12 +5,11 @@
 :root{
     --bg-gradient: linear-gradient(rgba(91, 147, 166, 1)
     rgba(0, 0, 0, 0));
+    --bg-main-gradient: linear-gradient(180deg, #1C244D 0%, rgba(58, 143, 143, 0) 100%);
 }
 
 .body{
-    font-family: var(--font-poppins);
-    min-height: 100svh;
-    background: var(--bg-main-gradient);
+    background-image: var(--bg-main-gradient);
 }
 .bg-color{
     background-image: var(--bg-gradient) ;
