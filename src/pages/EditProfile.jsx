@@ -8,23 +8,28 @@ export default function EditProfile() {
   return (
     <div className="flex flex-row">
       <Sidebar />
-      <div className="w-full mt-4">
+      <div className="w-full mt-4 ">
         <div className="w-full items-center pl-4 text-6xl bg-gray-300 py-2 text-white flex ">
           <img src={clipboardIcon} alt="" />{" "}
           <h1 className="pl-4">Edit Profile</h1>
         </div>
 
-        <div className="pl-20 w-4/6  mt-16 text-white">
-        
-        <div className='float-right block my-2 '>
-              <button className='bg-[#126D8D] text-2xl px-6 py-1 mx-2 rounded-lg' onClick={() => {navigate("/profile")}}>BACK</button>
-  
-            </div>
-            <br />
-            <br /><br />
+        <div className=" w-full  mt-8 text-white flex flex-col px-80 ">
+          <div className="self-end block my-2 ">
+            <button
+              className="bg-[#126D8D] text-md px-6 py-1 mx-2 rounded-lg"
+              onClick={() => {
+                navigate("/profile");
+              }}
+            >
+              BACK
+            </button>
+          </div>
 
-        
-          <ul className="text-2xl">
+          <br />
+          <br />
+
+          <ul className="text-xl">
             <li className="flex justify-between items-center">
               <h1 className="font-bold">Name</h1>
               <input
@@ -92,7 +97,7 @@ export default function EditProfile() {
             <br />
             <br />
             <li className="flex justify-center">
-              <button className="text-white bg-[#126D8D] text-md font-bold px-16 rounded-md py-1">
+              <button className="text-white bg-[#126D8D] text-sm  font-bold px-16 rounded-md py-1">
                 SAVE
               </button>
             </li>

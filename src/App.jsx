@@ -25,11 +25,12 @@ export default function App() {
             <Route path="/support" element={<Support />} />
             <Route path="/awards" element={<Awards />} />
             <Route path="/profile" element={<Profile />} />
-            <Route path="/profileinfo" element={<NGOProfile />} />
+            <Route path="/ngoprofile" element={<NGOProfile />} />
             <Route path="/volunteers" element={<Volunteers />} />
             <Route path="/yourprojects" element={<YourProjects />} />
             <Route path="/addprojects" element={<AddProjects />} />
             <Route path="/editprofile" element={<EditProfile />} />
+            
 
           </Route>
         </Routes>
