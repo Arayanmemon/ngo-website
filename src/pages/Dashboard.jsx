@@ -20,8 +20,8 @@ export default function Dashboard() {
 
        <div className="w-full">
           {/* NAVBAR */}
-          <div className="flex flex-row w-full px-10 justify-between">
-            <div className="flex flex-row  gap-2 mt-2">
+          <div className="flex flex-row w-full px-10 mt-2 justify-between">
+            <div className="flex flex-row  gap-2">
               <div>
                 <button onClick={() => setOpen(!open)}>
                   <img src={hamburger} className="w-9" />
