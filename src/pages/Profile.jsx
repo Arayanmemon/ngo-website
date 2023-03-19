@@ -14,8 +14,8 @@ export default function Profile() {
           <div className='flex flex-col justify-between text-white mx-auto  gap-3'>
 
             <div className='self-end my-2'>
-              <button className='bg-blue-400 px-6 py-1 mx-2 rounded-lg'>EDIT</button>
-              <button className='bg-blue-400 px-2 py-1 mx-2 rounded-lg'>VIEW PROFILE</button>
+              <button className='bg-slate-800 px-6 py-1 mx-2 rounded-lg'>EDIT</button>
+              <button className='bg-slate-800 px-2 py-1 mx-2 rounded-lg'>VIEW PROFILE</button>
             </div>
             <div className='text-xl hidden'>
               <span className='px-4 py-2 border-[1px] border-white w-[18rem] inline-block'>Name</span><span className='py-2 px-4 inline-block w-[28rem] border-[1px] border-white'>EDHI FOUNDATION</span>

@@ -27,12 +27,12 @@ export default function ({ navRequired }) {
             <img src={appLogo} alt="" />
           </div>
           {/* Side BAR MENU CONTENTS */}
-          <div className="flex flex-row px-4  py-2 hover:bg-blue-400 items-center cursor-pointer  gap-3">
+          <div className="flex flex-row px-4  py-2 hover:bg-blue-400 text-lg items-center cursor-pointer  gap-3">
             <img src={dashBoardIcon} alt="" />
             <div>Dashboard</div>
           </div>
           <div
-            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left items-center cursor-pointer  gap-3"
+            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left text-lg items-center cursor-pointer  gap-3"
             onClick={() => handleClick("/profile")}
           >
             <img src={profileIcon} alt="" />
@@ -40,7 +40,7 @@ export default function ({ navRequired }) {
           </div>
 
           <div
-            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left items-center cursor-pointer  gap-3"
+            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left text-lg items-center cursor-pointer  gap-3"
             onClick={() => setProjectsSlide(!projectsSlide)}
           >
             <img src={projectIcon} alt="" />
@@ -57,21 +57,21 @@ export default function ({ navRequired }) {
             </div>
           </div>
           <div
-            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left items-center cursor-pointer  gap-3"
+            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left text-lg items-center cursor-pointer  gap-3"
             onClick={() => handleClick("/volunteers")}
           >
             <img src={volunteerIcon} alt="" />
             <div>Volunteers</div>
           </div>
           <div
-            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left items-center cursor-pointer  gap-3"
+            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left text-lg items-center cursor-pointer  gap-3"
             onClick={() => handleClick("/awards")}
           >
             <img src={awardIcon} alt="" />
             <div>Awards</div>
           </div>
           <div
-            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left items-center cursor-pointer  gap-3"
+            className="flex flex-row px-4 py-2 hover:bg-blue-400 justify-left text-lg items-center cursor-pointer  gap-3"
             onClick={() => handleClick("/support")}
           >
             <img src={supportIcon} alt="" />
