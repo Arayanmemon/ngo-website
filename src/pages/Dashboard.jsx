@@ -8,7 +8,7 @@ export default function Dashboard() {
 
   return (
     <div
-      className="body bg-gradient-to-b from-slate-700 to-slate-50 min-h-[100vh]"
+      className="body bg-gradient-to-b from-slate-700 to-slate-100 min-h-[100vh]"
       style={{
         backgroundColor:
           "linear-gradient(180deg, #1C244D 0%, rgba(58, 143, 143, 0) 100%)",
