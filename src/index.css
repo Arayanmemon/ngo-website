@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.body{
+    font-family: var(--font-poppins);
+    min-height: 100svh;
+    background: var(--bg-main-gradient);
+}
+.bg-color{
+    background-image: linear-gradient(rgba(91, 147, 166, 1)
+    rgba(0, 0, 0, 0)) ;
+}  

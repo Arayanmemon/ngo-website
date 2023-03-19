@@ -13,9 +13,7 @@ export default function Support() {
           </div>
 
           <div className="w-full px-20  mt-8">
-            <div className="bg-white text-2xl text-black ">
-knjkn
-            </div>
+            
             </div>
         </div>
       </div>
